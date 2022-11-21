@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #efeeec
+}
+
+
+.overview{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: 0;
+
+}
+
+.container > h2{
+    font-size: 4em;
+    
+}
+
+.garis{
+    width: 100px;
+    border: 1px solid;
+    opacity: 1 ;
+}
+
+.project{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.frame-project > a{
+    text-decoration: none;
+    color: black;
+}
+
+.link-project:hover{
+    color: white;
+    background-color: black;
+    transition: 500ms;
+}
