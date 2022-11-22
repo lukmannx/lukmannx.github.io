@@ -61,10 +61,18 @@ body {
     .overview{
         height: auto;
     }
+
+
     .sertifikat{
         height: auto;
     }
     .project{
         height: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    :root{
+        font-size: 7px;
     }
 }
