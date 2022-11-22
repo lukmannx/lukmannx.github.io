@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -34,6 +35,10 @@ body {
     height: 100vh;
 }
 
+.sertifikat{
+    margin-top: 20px;
+}
+
 
 .frame-project > a{
     text-decoration: none;
@@ -54,6 +59,12 @@ body {
 
 @media screen and (max-width:768px) {
     .overview{
+        height: auto;
+    }
+    .sertifikat{
+        height: auto;
+    }
+    .project{
         height: auto;
     }
 }
